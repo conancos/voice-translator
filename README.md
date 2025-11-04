@@ -60,5 +60,5 @@ Follow these instructions to get a copy of the project up and running on your lo
     ```
     Then, open your browser and navigate to the URL provided by Vite (usually `http://localhost:5173`).
 
-    > [!NOTE]
-    > I've been unable to separate the input and output audio in the mobile settings, nor in the browser app settings, such as this one. I haven't been able to access the PC audio or the headphone audio from the browser.
+> [!NOTE]
+> I've been unable to separate the input and output audio in the mobile settings, nor in the browser app settings, such as this one. I haven't been able to access the PC audio or the headphone audio from the browser.
