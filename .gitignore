@@ -1,0 +1,65 @@
+# 📦 DEPENDENCIAS Y ARTEFACTOS DE NODE.JS
+
+node_modules
+/.pnp
+.pnp.js
+
+# Archivos de lock
+package-lock.json
+
+# Logs de dependencias y depuración
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+
+# 🏗️ DIRECTORIOS DE CONSTRUCCIÓN (BUILD)
+
+dist
+dist-ssr
+/.vite-node
+/.cache
+
+
+# ⚙️ ARCHIVOS DE ENTORNO Y CONFIGURACIÓN LOCAL
+
+.env
+.env.local
+.env.*.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.staging
+.env.staging.local
+.env.production
+.env.production.local
+*.local
+
+!.env.example
+
+
+# 🧠 CONFIGURACIONES DE EDITORES DE CÓDIGO
+
+.idea
+.vscode/
+!.vscode/extensions.json
+
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+# 💾 ARCHIVOS DEL SISTEMA OPERATIVO
+
+.DS_Store
+Thumbs.db
+desktop.ini
+INSTRUCCIONES_GITIGNORE.md
+assets/

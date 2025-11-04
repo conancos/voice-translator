@@ -1,0 +1,7 @@
+{
+  "name": "Voice Translator Terminada",
+  "description": "A voice translation application that captures audio from your microphone, transcribes it, translates it using Gemini, and narrates the translation.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
