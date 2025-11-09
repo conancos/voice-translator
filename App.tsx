@@ -312,8 +312,8 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen text-text-primary p-4 sm:p-6 lg:p-8 font-sans">
-      <main className="max-w-7xl mx-auto flex flex-col gap-6">
+    <div className="min-h-screen text-text-primary p-4 sm:p-6 lg:p-8 font-sans overflow-x-hidden w-full">
+      <main className="w-full mx-auto flex flex-col gap-6 max-w-full sm:max-w-7xl">
         <header className="text-center">
             <div className="flex items-center justify-center gap-2">
                 <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-brand-primary to-brand-secondary">{t('title')}</h1>
@@ -412,7 +412,7 @@ const App: React.FC = () => {
             </div>
             <div className="flex justify-center items-center gap-6">
                  <a 
-                  href="https://www.linkedin.com/in/conancos/"
+                  href="https://www.linkedin.com/in/joaquin-martinez-cortes/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-text-secondary hover:text-brand-secondary transition-colors"

@@ -1,7 +1,7 @@
 import { GoogleGenAI } from "@google/genai";
 
 // Support both the platform's API_KEY and the Vite-style VITE_API_KEY for deployment.
-const API_KEY = process.env.VITE_GEMINI_API_KEY || process.env.API_KEY;
+const API_KEY = process.env.API_KEY || process.env.VITE_API_KEY || process.env.VITE_GEMINI_API_KEY;
 
 if (!API_KEY) {
   // Provide a more generic error message that covers both possibilities.

@@ -19,11 +19,13 @@ lerna-debug.log*
 
 # 🏗️ DIRECTORIOS DE CONSTRUCCIÓN (BUILD)
 
-dist
-dist-ssr
+dist/
+dist-ssr/
+.vite/
 /.vite-node
 /.cache
-
+coverage/
+build/
 
 # ⚙️ ARCHIVOS DE ENTORNO Y CONFIGURACIÓN LOCAL
 
@@ -40,6 +42,7 @@ dist-ssr
 .env.production.local
 *.local
 
+# Mantener el ejemplo
 !.env.example
 
 
@@ -61,5 +64,16 @@ dist-ssr
 .DS_Store
 Thumbs.db
 desktop.ini
+
+
+# 🧩 DOCUMENTACIÓN / INSTRUCCIONES INTERNAS
+
 INSTRUCCIONES_GITIGNORE.md
 assets/
+
+
+# 🧰 OTROS ARCHIVOS TEMPORALES O DE BACKUP
+*.tmp
+*.bak
+*.old
+*.orig
